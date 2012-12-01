@@ -1,4 +1,3 @@
-    <hr>
     <footer>
       <p>
         <small>
@@ -7,21 +6,21 @@
       </p>
     </footer>
   </div><!--/.fluid-container-->
-
-  <div id="sky">
-    <div id="clouds">
-      <div class="cloud x1"></div>
-      <div class="cloud x2"></div>
-      <div class="cloud x3"></div>
-      <div class="cloud x4"></div>
-      <div class="cloud x5"></div>
+  <div id="bg">
+    <div id="sky">
+      <div id="clouds">
+        <div class="cloud x1"></div>
+        <div class="cloud x2"></div>
+        <div class="cloud x3"></div>
+        <div class="cloud x4"></div>
+        <div class="cloud x5"></div>
+      </div>
     </div>
-  </div>
 
-  <div id="fields" class="center-text">
-    <div class="field"></div>
-  </div>
-
+    <div id="fields" class="center-text">
+      <div class="field"></div>
+    </div>
+    </div>
   <!-- Le javascript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
