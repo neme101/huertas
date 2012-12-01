@@ -1,0 +1,25 @@
+/* Fonts */
+.rum-raisin {
+  font-family: 'Rum Raisin', sans-serif;
+}
+
+/* Utils */
+.center-text {
+  text-align: center;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.leftalign-text {
+  text-align: left;
+}
+
+.rightalign-text {
+  text-align: right;
+}
+
+.container, .container-fluid {
+  z-index: 10;
+}

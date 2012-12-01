@@ -12,7 +12,8 @@ class Main extends PublicController {
   {
     $vars =& $this->data;
 
-    $vars['page'] = '';
+    $vars['body_class'] = 'home';
+    $vars['page'] = 'home/index';
     $this->load->view('template', $vars);
   }
 

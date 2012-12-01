@@ -1,0 +1,73 @@
+---
+Cultivo:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    nombre: string
+    familia: string
+    parte_comestible: string
+    meses_plantacion: string
+    profundidad_raices:
+      type: enum
+      values: ['media','superficial','profunda']
+    forma_siembra:
+      type: enum
+      values: ['almacigo','directa']
+    distancia_entre_plantas_min: integer
+    distancia_entre_plantas_max: integer
+    distancia_entre_surcos_min: integer
+    distancia_entre_surcos_max: integer
+    plantas_en_10m: string
+    germinacion: integer
+    transplante: integer
+    tiempo_hasta_cosecha_min: integer
+    tiempo_hasta_cosecha_max: integer
+    indicador_cosecha: string
+    rendimiento_en_10m: string
+    cantidad_de_semillas_para_10m: integer
+    semillas_por_gramo: integer
+  relations:
+    CultivosAmigos:
+      class: Cultivo
+      local: cultivo_id
+      foreign: amigo_id
+      refClass: CultivoAmigo
+      equal: true
+    CultivosAntagonicos:
+      class: Cultivo
+      local: cultivo_id
+      foreign: enemigo_id
+      refClass: CultivoAntagonico
+      equal: true
+
+CultivoAmigo:
+  columns:
+    cultivo_id:
+      type: integer
+      primary: true
+    amigo_id:
+      type: integer
+      primary: true
+
+CultivoAntagonico:
+  columns:
+    cultivo_id:
+      type: integer
+      primary: true
+    enemigo_id:
+      type: integer
+      primary: true
+
+PrecioEnFeria:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    cultivo_id: integer
+    nombre_en_planilla: string
+    fecha: date
+    precio: decimal(8,2)
+  actAs: Timestampable
