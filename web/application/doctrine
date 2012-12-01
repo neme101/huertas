@@ -1,0 +1,7 @@
+#!/usr/bin/php
+<?php
+define('BASEPATH','.'); // mockup that this app was executed from ci ;)
+chdir(dirname(__FILE__));
+$env = isset($_SERVER['IAMATEACUP']) ? $_SERVER['IAMATEACUP'] : 'production';
+define('ENVIRONMENT',$env);
+include('doctrine.php');
