@@ -3,6 +3,18 @@
   font-family: 'Rum Raisin', sans-serif;
 }
 
+.text-orange {
+  color: #ff4900;
+}
+
+.text-light-blue {
+  color: #0969a3;
+}
+
+.text-dark-blue {
+  color: #03436a;
+}
+
 /* Utils */
 .center-text {
   text-align: center;
@@ -32,4 +44,14 @@ footer {
   z-index: 20;
   text-align: center;
   font-size: small;
+}
+
+/* Botones */
+
+.btn-convenceme {
+  width: ;
+}
+
+.home-main .btn {
+  margin: 10px;
 }

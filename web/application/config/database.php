@@ -49,9 +49,9 @@ $active_group = ENVIRONMENT;
 $active_record = TRUE;
 
 $db['development']['hostname'] = 'localhost';
-$db['development']['username'] = 'vinfor_v3';
-$db['development']['password'] = 'vinforv3';
-$db['development']['database'] = 'vinfor_v3';
+$db['development']['username'] = 'root';
+$db['development']['password'] = 'root';
+$db['development']['database'] = 'huertas';
 $db['development']['dbdriver'] = 'mysql';
 $db['development']['dbprefix'] = '';
 $db['development']['pconnect'] = TRUE;
