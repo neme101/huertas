@@ -64,6 +64,22 @@ $db['development']['swap_pre'] = '';
 $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
+$db['production']['hostname'] = 'mysql.huertas.coffeebreakwebs.com';
+$db['production']['username'] = 'huertasdb';
+$db['production']['password'] = 'huertasdb';
+$db['production']['database'] = 'GN4XCYlUkNrtvX41uY4BQu';
+$db['production']['dbdriver'] = 'mysql';
+$db['production']['dbprefix'] = '';
+$db['production']['pconnect'] = TRUE;
+$db['production']['db_debug'] = TRUE;
+$db['production']['cache_on'] = FALSE;
+$db['production']['cachedir'] = '';
+$db['production']['char_set'] = 'utf8';
+$db['production']['dbcollat'] = 'utf8_general_ci';
+$db['production']['swap_pre'] = '';
+$db['production']['autoinit'] = TRUE;
+$db['production']['stricton'] = FALSE;
+
 // Create dsn from the info above
 $db[$active_group]['dsn'] = $db[$active_group]['dbdriver'] .
                         '://' . $db[$active_group]['username'] .

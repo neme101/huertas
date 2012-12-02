@@ -10,6 +10,7 @@
       <li><a href="/wizard" class="btn btn-large btn-warning">Como empiezo?</a></li>
       <li><a href="/sweet-talker" class="btn btn-large btn-danger">Convenceme</a></li>
       <li><a href="/open-sources" class="btn btn-large btn-success">De donde vienen los datos?</a></li>
+      <li><a href="/i-am-a-grown-man" class="btn btn-large btn-info">Acceso directo a la información</a></li>
     </ul>
   </div>
 </div>
