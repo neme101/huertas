@@ -42,8 +42,15 @@ $route['default_controller'] = "main";
 $route['404_override'] = '';
 
 $route['cultivos/(:any)/(:any)'] = 'cultivos/index/$1/$2';
+
+$route['convenceme'] = 'informacion/router/convenceme';
+$route['sweet-talker'] = 'informacion/router/convenceme';
+
+$route['open-sources'] = 'informacion/router/links';
+
+$route['i-am-a-grown-man'] = 'wizard/todos';
+
 $route['informacion/(:any)'] = 'informacion/router/$1';
-$route['convenceme'] = 'informacion/convenceme';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

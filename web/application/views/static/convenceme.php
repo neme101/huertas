@@ -47,4 +47,7 @@
 
     <p><strong>El Equipo RGN.</strong></p>
   </div>
+  <div class="well sidebar span3">
+    <?php $this->load->view('wizard/resultados_sidebar'); ?>
+  </div>
 </div>

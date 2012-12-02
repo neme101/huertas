@@ -40,6 +40,18 @@ class Wizard extends PublicController {
     $vars['page'] = 'wizard/resultados';
     $this->load->view('template', $vars);
   }
+
+  public function todos()
+  {
+    $vars =& $this->data;
+
+    $sugerencias = CultivoTable::get_suggestions();
+
+    $vars['sugerencias'] =& $sugerencias;
+    $vars['body_class'] = 'wizard';
+    $vars['page'] = 'wizard/resultados';
+    $this->load->view('template', $vars);
+  }
 }
 
 /* End of file wizard.php */

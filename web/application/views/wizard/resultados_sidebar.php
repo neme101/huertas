@@ -7,4 +7,7 @@
   <li><a href="/informacion/semillas">Semillas</a></li>
   <li><a href="/informacion/links">Links a documentos sobre la huerta</a></li>
 </ul>
-
+<hr>
+<div style="text-align:center">
+  <a href="/" class="btn btn-primary">Volver al Inicio</a>
+</div>

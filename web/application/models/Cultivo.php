@@ -26,7 +26,7 @@ class CultivoTable extends Doctrine_Table
    * @return array|Doctrine_Collection
    * @author Juan Peon <nemesys101@gmail.com>
    **/
-  public static function get_suggestions($max_results,$filters,$as_array=true)
+  public static function get_suggestions($max_results=false,$filters=false,$as_array=true)
   {
     $q = Doctrine_Query::create()
       ->select('c.*')
