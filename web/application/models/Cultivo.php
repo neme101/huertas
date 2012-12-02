@@ -29,7 +29,8 @@ class CultivoTable extends Doctrine_Table
   public static function get_suggestions($max_results=false,$filters=false,$as_array=true)
   {
     $q = Doctrine_Query::create()
-      ->select('c.*')
+      ->select('c.*,p.fecha,p.precio')
+      ->leftJoin('c.Precios p')
       ->from('Cultivo c')
       ;
     if($as_array) {

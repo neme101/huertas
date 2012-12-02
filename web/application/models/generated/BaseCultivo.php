@@ -28,6 +28,7 @@
  * @property string $foto
  * @property Doctrine_Collection $CultivosAmigos
  * @property Doctrine_Collection $CultivosAntagonicos
+ * @property PrecioEnFeria $Precios
  * 
  * @package    ##PACKAGE##
  * @subpackage ##SUBPACKAGE##
@@ -131,5 +132,9 @@ abstract class BaseCultivo extends Doctrine_Record
              'local' => 'cultivo_id',
              'foreign' => 'enemigo_id',
              'equal' => true));
+
+        $this->hasOne('PrecioEnFeria as Precios', array(
+             'local' => 'id',
+             'foreign' => 'cultivo_id'));
     }
 }

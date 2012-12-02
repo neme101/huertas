@@ -10,6 +10,7 @@
  * @property string $nombre_en_planilla
  * @property date $fecha
  * @property decimal $precio
+ * @property Doctrine_Collection $Cultivo
  * 
  * @package    ##PACKAGE##
  * @subpackage ##SUBPACKAGE##
@@ -45,6 +46,8 @@ abstract class BasePrecioEnFeria extends Doctrine_Record
     public function setUp()
     {
         parent::setUp();
-        
+        $this->hasMany('Cultivo', array(
+             'local' => 'cultivo_id',
+             'foreign' => 'id'));
     }
 }

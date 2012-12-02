@@ -42,6 +42,10 @@ Cultivo:
       foreign: enemigo_id
       refClass: CultivoAntagonico
       equal: true
+    Precios:
+      class: PrecioEnFeria
+      local: id
+      foreign: cultivo_id
 
 CultivoAmigo:
   columns:

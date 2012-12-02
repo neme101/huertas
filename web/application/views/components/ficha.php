@@ -5,6 +5,13 @@
   </div>
   <br class="clearfix">
   <div class="ficha-body">
+
+    <?php if($cultivo->Precios): ?>
+      <p>
+        <strong>Precio promedio:</strong> $U <?= $cultivo->Precios['precio'] ?> (<?= date('d/M',strtotime($cultivo->Precios['fecha'])) ?>)
+        <small class="help-block">Por kg, atado o unidad segun corresponda</small>
+      </p>
+    <?php endif; ?>
     <ul>
       <li><strong>Parte Comestible:</strong> <?= $cultivo['parte_comestible']; ?></li>
       <li><strong>Meses en que se planta:</strong> <?= $cultivo['meses_plantacion']; ?></li>
