@@ -26,8 +26,9 @@ Cultivo:
     tiempo_hasta_cosecha_max: integer
     indicador_cosecha: string
     rendimiento_en_10m: string
-    cantidad_de_semillas_para_10m: integer
     semillas_por_gramo: integer
+    pais: string
+    foto: string
   relations:
     CultivosAmigos:
       class: Cultivo

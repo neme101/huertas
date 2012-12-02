@@ -11,6 +11,11 @@
 }
 
 .wizard .pasos {
+  display: none;
+}
+
+.wizard .pasos.active {
+  display: block;
 }
 
 .wizard .ribbonized {

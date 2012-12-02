@@ -23,8 +23,9 @@
  * @property integer $tiempo_hasta_cosecha_max
  * @property string $indicador_cosecha
  * @property string $rendimiento_en_10m
- * @property integer $cantidad_de_semillas_para_10m
  * @property integer $semillas_por_gramo
+ * @property string $pais
+ * @property string $foto
  * @property Doctrine_Collection $CultivosAmigos
  * @property Doctrine_Collection $CultivosAntagonicos
  * 
@@ -105,11 +106,14 @@ abstract class BaseCultivo extends Doctrine_Record
         $this->hasColumn('rendimiento_en_10m', 'string', null, array(
              'type' => 'string',
              ));
-        $this->hasColumn('cantidad_de_semillas_para_10m', 'integer', null, array(
-             'type' => 'integer',
-             ));
         $this->hasColumn('semillas_por_gramo', 'integer', null, array(
              'type' => 'integer',
+             ));
+        $this->hasColumn('pais', 'string', null, array(
+             'type' => 'string',
+             ));
+        $this->hasColumn('foto', 'string', null, array(
+             'type' => 'string',
              ));
     }
 

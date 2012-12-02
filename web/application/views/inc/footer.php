@@ -29,5 +29,6 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="/js/bootstrap.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 </html>

@@ -5,13 +5,13 @@
 </div>
 
 <div class="well wellwizard">
-  <form action="/wizard/resultados" method="post">
+  <form action="/wizard/resultados" method="post" id="form-wizard">
     <div id="paso-1" class="active pasos">
       <fieldset>
         <legend>Pais</legend>
         <span class="help-block">En este momento solo tenemos datos disponibles para Uruguay</span>
         <p class="pull-right">
-          <a href="#paso-2" class="btn btn-info">Siguiente<i class="icon-chevron-right icon-white"></i></a>
+          <a class="btn btn-info" data-wizard-parent="paso-1" data-wizard-go="paso-2">Siguiente<i class="icon-chevron-right icon-white"></i></a>
         </p>
       </fieldset>
     </div>
@@ -35,8 +35,11 @@
           <option value="Diciembre">Diciembre</option>
         </select>
         <span class="help-block">Hay ciertos vegetales que solo pueden ser plantados en ciertos momentos del año</span>
+        <p class="pull-left">
+          <a class="btn btn-info" data-wizard-parent="paso-2" data-wizard-go="paso-1">Anterior<i class="icon-chevron-left icon-white"></i></a>
+        </p>
         <p class="pull-right">
-          <a href="#paso-3" class="btn btn-info">Siguiente<i class="icon-chevron-right icon-white"></i></a>
+          <a class="btn btn-info" data-wizard-parent="paso-2" data-wizard-go="paso-3">Siguiente<i class="icon-chevron-right icon-white"></i></a>
         </p>
       </fieldset>
     </div>
@@ -52,8 +55,11 @@
           No, voy a plantar directamente en la tierra
         </label>
         <span class="help-block">El tener macetas facilita la preparacion de ciertos vegetales, antes de llevarlos a la tierra. <a href="/datos/metodos-de-siembra">Averiguar mas sobre metodos de siembra</a></span>
+        <p class="pull-left">
+          <a class="btn btn-info" data-wizard-parent="paso-3" data-wizard-go="paso-2">Anterior<i class="icon-chevron-left icon-white"></i></a>
+        </p>
         <p class="pull-right">
-          <a href="#paso-4" class="btn btn-info">Siguiente<i class="icon-chevron-right icon-white"></i></a>
+          <a class="btn btn-info" data-wizard-parent="paso-3" data-wizard-go="paso-4">Siguiente<i class="icon-chevron-right icon-white"></i></a>
         </p>
       </fieldset>
     </div>
@@ -73,8 +79,11 @@
           Paciencia es mi segundo nombre, espero lo que sea necesario
         </label>
         <span class="help-block">Distintos cultivos tienen distintos tiempos de cosechas y se pueden adaptar los cultivos elegidos de acuerdo a las preferencias y a la posibilidad de esperar de cada persona, grupo o familia</span>
+        <p class="pull-left">
+          <a class="btn btn-info" data-wizard-parent="paso-4" data-wizard-go="paso-3">Anterior<i class="icon-chevron-left icon-white"></i></a>
+        </p>
         <p class="pull-right">
-          <a href="#paso-5" class="btn btn-info">Siguiente<i class="icon-chevron-right icon-white"></i></a>
+          <input type="submit" class="btn btn-info" value="Finalizar">
         </p>
       </fieldset>
     </div>

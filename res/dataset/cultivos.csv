@@ -1,0 +1,27 @@
+id,nombre,familia,parte_comestible,meses_plantacion,profundidad_raices,forma_siembra,distancia_entre_plantas_min,distancia_entre_plantas_max,distancia_entre_surcos_min,distancia_entre_surcos_max,plantas_en_10m,germinacion,transplante,tiempo_hasta_cosecha_min,tiempo_hasta_cosecha_max,indicador_cosecha,rendimiento_en_10m,semillas_por_gramo,pais,foto
+,Tomate,Solanaceae,Fruto,"Julio, Agosto, Setiembre, Octubre",Media,Almácigo,40,60,100,120,16 a 25,5,35,90,105,Fruto firme bien coloreado,50 a 70 kgs,30,URUGUAY,0001.jpg
+,Zanahoria,Umbellifereae,Raiz,"Julio, Agosto, Setiembre, Octubre, Noviembre, Diciembre, Enero, Febrero",Media,Almácigo,5,10,20,25,100 a 200,10,,100,120,Raices formadas y coloreadas,15 a 30 kgs,900,URUGUAY,0002.jpg
+,Habas,Leguminosae,Fruto,"Abril, Mayo, Junio",Media,Directa,50,60,90,100,16 a 20,7 a 14,0,120,150,Cuando la vaina es verde y se notan los granos,3 a 6 kgs,1,URUGUAY,0003.jpg
+,Berro,Brassicaceae,Hojas,"Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Setiembre, Octubre, Noviembre, Diciembre",Superficial,Directa,10,20,20,40,50 a 100,7,30,50,70,Tallos de 8 cms de largo,66 a 100 manojos,,URUGUAY,0004.jpg
+,Rabanito,Cruciferae,Raiz y hojas,"Marzo, Abril, Mayo, Junio, Julio, Agosto, Setiembre, Octubre, Noviembre, Diciembre",Superficial,Directa,15,20,30,40,50 a 66,4,0,30,40,Raices de 2 cms de diámetro,5 a 8 kgs,120,URUGUAY,0005.jpg
+,Remolacha,Quenopodiacea,Raiz,"Setiembre, Octubre, Noviembre, Diciembre, Enero, Febrero, Marzo",Media,Directa,10,15,20,30,66 a 100,6,0,100,120,Raíces de 6 cms de diámetro coloreadas,13 a 40 kgs,60,URUGUAY,0006.jpg
+,Repollo,Cruciferae,Hojas,"Marzo, Abril, Mayo, Junio, Julio, Agosto, Setiembre, Octubre, Noviembre, Diciembre",Superficial,Almácigo,40,45,50,80,22 a 25,5,25,100,120,Cabeza bien compacta,22 a 25 cabezas,350,URUGUAY,0007.jpg
+,Acelga,Quenopodiacea,Hojas,"Marzo, Abril",Superficial,Directa,30,35,45,50,20 a 33,6,35,50,65,Hojas externas o planta entera,28 a 33 plantas u hojas enteras,60,URUGUAY,0008.jpg
+,Apio,Umbellifereae,Hojas,"Setiembre, Octubre, Noviembre, Diciembre",Superficial,Almácigo,20,25,45,50,40 a 50,15,55,140,150,Hojas verdes o plantas enteras,40 a 50 plantas y hojas enteras,2600,URUGUAY,0009.jpg
+,Berenjena,Solanaceae,Fruto,"Setiembre, Octubre",Profunda,Almácigo,75,80,100,120,12 a 13,8,35,70,95,Fruto antes de perder el brillo,48 a 52 kgs,250,URUGUAY,0010.jpg
+,Cebolla,Liliaceae,Raiz,"Abril, Mayo",Superficial,Almácigo,10,15,30,35,66 a 100,10,50,80,150,Bulbo amarillento y seco,10 a 12 kgs,250,URUGUAY,0011.jpg
+,Col,Cruciferae,Hojas,"Octubre, Noviembre, Diciembre",Superficial,Almácigo,30,40,30,40,25 a 33,10,25,70,80,Hojas verdes desarrolladas,25 a 33 plantas,,URUGUAY,0012.jpg
+,Espinaca,Quenopodiacea,Hojas,"Abril, Mayo, Junio, Julio, Agosto",Superficial,Directa,25,30,25,30,33 a 40,8,0,120,130,Hojas crecidas desarrolladas,33 a 40 manojos,90,URUGUAY,0013.jpg
+,Zapallo,Cucurbitaceae,Fruto,"Octubre, Noviembre",Superficial,Directa,200,250,250,400,4 a 5,5,0,100,120,Fruto duro y firme a la uña,10 a 15 kgs,3,URUGUAY,0014.jpg
+,Lechuga,Compositae,Hojas,"Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Setiembre, Octubre, Noviembre, Diciembre",Superficial,Almácigo,25,30,30,40,33 a 40,4,20,30,40,Hojas bien desarrolladas,33 a 40 plantas,700,URUGUAY,0015.jpg
+,Arveja,Leguminosae,Fruto,"Agosto, Setiembre",Media,Directa,20,25,100,120,40 a 50,6,0,100,120,Vaina verde con grano,85 a 120 kgs,3,URUGUAY,0016.jpg
+,Ajo,Liliaceae,Raiz y hojas,"Mayo, Junio, Julio",Superficial,Directa,5,20,30,40,50 a 200,3 a 4,0,120,150,Las hojas se amarillean y comienzan a secarse,2 a 7 kgs,,URUGUAY,0017.jpg
+,Pepino,Cucurbitaceae,Fruto,"Setiembre, Octubre, Noviembre, Diciembre, Enero, Febrero",Media,Directa,50,55,100,120,18 a 20,5,0,60,80,Fruto verde y duro,72 a 80 kgs,40,URUGUAY,0018.jpg
+,Brócoli,Cruciferae,Fruto,"Febrero, Marzo, Abril, Mayo",Superficial,Almácigo,30,45,50,70,22 a 33,3,30,80,90,Cabeza terminal firme y verde,7 a 10 kgs,,URUGUAY,0019.jpg
+,Boniato,Convolvulaceae,Raiz,Agosto,Superficial,Directa,20,25,80,100,40 a 50,30,0,150,180,Follaje color verde pálido amarillento,16 a 32 kgs,,URUGUAY,0020.jpg
+,Poroto,Leguminosae,Fruto,"Octubre, Noviembre",Media,Directa,100,120,140,150,8 a 10,6,0,210,360,Vainas de la planta están secas (95%),4 a 7 kgs,1,URUGUAY,0021.jpg
+,Melón,Cucurbitaceae,Fruto,"Octubre, Noviembre",Media,Directa,50,80,160,200,12 a 20,4 a 6,0,70,90,Secamiento de zarcillos cercanos al fruto,16 a 26 kgs,10,URUGUAY,0022.jpg
+,Morrón,Solanaceae,Fruto,"Agosto, Setiembre",Media,Almácigo,40,45,70,80,22 a 25,10,40,60,90,Cuando el fruto tiene un color verde,5 a 7 kgs,120,URUGUAY,0023.jpg
+,Sandía,Cucurbitaceae,Fruto,"Setiembre, Octubre, Noviembre, Diciembre",Media,Directa,100,120,300,350,8 a 10,6 a 12,0,80,110,Secamiento de zarcillos cercanos al fruto,15 a 25 kgs,7,URUGUAY,0024.jpg
+,Perejil,Umbellifereae,Hojas,"Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Setiembre, Octubre, Noviembre, Diciembre",Superficial,Directa,20,25,45,50,40 a 50,20,0,60,70,Hojas verdes desarrolladas,2 a 4 kgs,500,URUGUAY,0025.jpg
+,Coliflor,Cruciferae,Flor,"Febrero, Marzo, Abril, Mayo",Superficial,Almácigo,50,60,70,80,16 a 20,5 a 10,28,60,65,Flores firmes y duras,18 a 23 kgs,350,URUGUAY,0026.jpg
