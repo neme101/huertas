@@ -14,10 +14,14 @@ class Wizard extends PublicController {
     $vars =& $this->data;
 
     $vars['body_class'] = 'wizard';
-    $vars['page'] = 'wizard/step1';
+    $vars['page'] = 'wizard/steps';
     $this->load->view('template', $vars);
   }
 
+  public function resultados($value='')
+  {
+    # code...
+  }
 }
 
 /* End of file wizard.php */
