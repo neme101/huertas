@@ -6,6 +6,7 @@ class Wizard extends PublicController {
   public function __construct()
   {
     parent::__construct();
+    $this->load->helper('general');
   }
 
   public function index()

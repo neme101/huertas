@@ -4,8 +4,11 @@
           Proyecto realizado utilizando datos abiertos de las siguientes fuentes: <?= implode(',',$datasources); ?>
         </small>
       </p>
+      <br class="clearfix">
     </footer>
+    <br class="clearfix">
   </div><!--/.fluid-container-->
+  <br class="clearfix">
   <div id="bg">
     <div id="sky">
       <div id="clouds">
