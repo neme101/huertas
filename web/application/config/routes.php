@@ -41,6 +41,7 @@
 $route['default_controller'] = "main";
 $route['404_override'] = '';
 
+$route['cultivos/(:any)/(:any)'] = 'cultivos/index/$1/$2';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

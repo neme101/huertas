@@ -10,9 +10,7 @@
   <!-- Le styles -->
   <link href='http://fonts.googleapis.com/css?family=Rum+Raisin&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href="/css/bootstrap.css" rel="stylesheet">
-  <style type="text/css">
-    body { padding-top: 60px; padding-bottom: 40px; }
-  </style>
+
   <link href="/css/styles.css" rel="stylesheet">
   <link href="/css/home.css" rel="stylesheet">
   <link href="/css/wizard.css" rel="stylesheet">
