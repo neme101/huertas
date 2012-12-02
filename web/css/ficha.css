@@ -1,0 +1,15 @@
+.ficha {
+  margin: 10px 5px 10px 30px;
+}
+
+.ficha .ficha-header img {
+  margin: 10px;
+}
+
+.ficha .ficha-header img, .ficha .ficha-header h4 {
+  display: inline;
+  line-height: 90px;
+}
+
+.ficha .ficha-body {
+}

@@ -16,6 +16,7 @@
   <link href="/css/styles.css" rel="stylesheet">
   <link href="/css/home.css" rel="stylesheet">
   <link href="/css/wizard.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ficha.css">
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
