@@ -10,6 +10,7 @@
       <fieldset>
         <legend>Pais</legend>
         <span class="help-block">En este momento solo tenemos datos disponibles para Uruguay</span>
+        <input type="hidden" name="pais" value="Uruguay">
         <p class="pull-right">
           <a class="btn btn-info" data-wizard-parent="paso-1" data-wizard-go="paso-2">Siguiente<i class="icon-chevron-right icon-white"></i></a>
         </p>

@@ -18,7 +18,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-if($_SERVER['HTTP_HOST'] == 'huertas.locahost') {
+if($_SERVER['HTTP_HOST'] == 'huertas.localhost') {
   define('ENVIRONMENT', 'development');
 } else {
   define('ENVIRONMENT', 'production');
@@ -203,6 +203,8 @@ if (defined('ENVIRONMENT'))
  * And away we go...
  *
  */
+
+require_once APPPATH.'config/database.php';
 require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */
