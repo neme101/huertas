@@ -64,10 +64,10 @@ $db['development']['swap_pre'] = '';
 $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
-$db['production']['hostname'] = 'mysql.huertas.coffeebreakwebs.com';
-$db['production']['username'] = 'huertasdb';
-$db['production']['password'] = 'huertasdb';
-$db['production']['database'] = 'GN4XCYlUkNrtvX41uY4BQu';
+$db['production']['hostname'] = '';
+$db['production']['username'] = '';
+$db['production']['password'] = '';
+$db['production']['database'] = '';
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
 $db['production']['pconnect'] = TRUE;
