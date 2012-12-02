@@ -52,10 +52,10 @@
           Si, voy a preparar almacigos
         </label>
         <label class="radio">
-          <input type="radio" name="almacigos" value="no">
+          <input type="radio" name="almacigos" value="no" checked>
           No, voy a plantar directamente en la tierra
         </label>
-        <span class="help-block">El tener macetas facilita la preparacion de ciertos vegetales, antes de llevarlos a la tierra. <a href="/informacion/metodos-de-siembra">Averiguar mas sobre metodos de siembra</a></span>
+        <span class="help-block">El tener macetas facilita la preparacion de ciertos vegetales, antes de llevarlos a la tierra. <a href="/informacion/metodos-de-siembra" target="_blank">Averiguar mas sobre metodos de siembra</a></span>
         <p class="pull-left">
           <a class="btn btn-info" data-wizard-parent="paso-3" data-wizard-go="paso-2">Anterior<i class="icon-chevron-left icon-white"></i></a>
         </p>
