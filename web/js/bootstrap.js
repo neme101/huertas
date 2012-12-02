@@ -111,6 +111,8 @@
 
         this.isShown = true
 
+        this.options.remote && this.options.remote_via_data && this.$element.find('.modal-body').load(this.options.remote)
+
         this.escape()
 
         this.backdrop(function () {
@@ -280,7 +282,7 @@
     var $this = $(this)
       , href = $this.attr('href')
       , $target = $($this.attr('data-target') || (href && href.replace(/.*(?=#[^\s]+$)/, ''))) //strip for ie7
-      , option = $target.data('modal') ? 'toggle' : $.extend({ remote:!/#/.test(href) && href }, $target.data(), $this.data())
+      , option = $target.data('modal') ? 'toggle' : $.extend({ remote:!/#/.test(href) && href, remote_via_data: remote }, $target.data(), $this.data())
 
     e.preventDefault()
 

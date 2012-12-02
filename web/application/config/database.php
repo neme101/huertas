@@ -85,7 +85,8 @@ $db[$active_group]['dsn'] = $db[$active_group]['dbdriver'] .
                         '://' . $db[$active_group]['username'] .
                         ':' . $db[$active_group]['password'].
                         '@' . $db[$active_group]['hostname'] .
-                        '/' . $db[$active_group]['database'];
+                        '/' . $db[$active_group]['database'] .
+                        '?char_set=' . $db[$active_group]['char_set'];
 
 // Require Doctrine.php
 require_once(realpath(dirname(__FILE__) . '/../..') . DIRECTORY_SEPARATOR . 'system/database/doctrine/Doctrine.php');

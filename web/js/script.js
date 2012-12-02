@@ -5,3 +5,11 @@ jQuery(document).ready(function() {
     $('#'+$(this).attr('data-wizard-go')).toggleClass('active');
   });
 });
+
+
+function load_modal_ficha(url) {
+  if($('#modal-ficha')) {
+    $('#modal-ficha .modal-body').load(url);
+    $('#modal-ficha').modal('show');
+  }
+}
