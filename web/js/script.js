@@ -4,6 +4,11 @@ jQuery(document).ready(function() {
     $('#'+$(this).attr('data-wizard-parent')).toggleClass('active');
     $('#'+$(this).attr('data-wizard-go')).toggleClass('active');
   });
+
+  /* Tooltips */
+     $('#form-wizard').tooltip({
+      selector: "a[rel=tooltip]"
+    })
 });
 
 

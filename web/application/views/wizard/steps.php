@@ -37,7 +37,7 @@
         </select>
         <span class="help-block">Hay ciertos vegetales que solo pueden ser plantados en ciertos momentos del año</span>
         <p class="pull-left">
-          <a class="btn btn-info" data-wizard-parent="paso-2" data-wizard-go="paso-1">Anterior<i class="icon-chevron-left icon-white"></i></a>
+          <a class="btn btn-info" data-wizard-parent="paso-2" data-wizard-go="paso-1"><i class="icon-chevron-left icon-white"></i>Anterior</a>
         </p>
         <p class="pull-right">
           <a class="btn btn-info" data-wizard-parent="paso-2" data-wizard-go="paso-3">Siguiente<i class="icon-chevron-right icon-white"></i></a>
@@ -55,9 +55,9 @@
           <input type="radio" name="almacigos" value="no" checked>
           No, voy a plantar directamente en la tierra
         </label>
-        <span class="help-block">El tener macetas facilita la preparacion de ciertos vegetales, antes de llevarlos a la tierra. <a href="/informacion/metodos-de-siembra" target="_blank">Averiguar mas sobre metodos de siembra</a></span>
+        <span class="help-block">El tener macetas facilita la preparacion de ciertos vegetales, antes de llevarlos a la tierra. <a href="/informacion/metodos-de-siembra" target="_blank" data-placement="bottom" data-trigger="hover" rel="tooltip" title="Un almácigo o almaciguera es un lugar transitorio destinado para la producción de plantas delicadas. Se pueden realizar en la tierra en lugares especiales, (almácigos) o en cajón (almacigueras).">Averiguar mas sobre metodos de siembra</a></span>
         <p class="pull-left">
-          <a class="btn btn-info" data-wizard-parent="paso-3" data-wizard-go="paso-2">Anterior<i class="icon-chevron-left icon-white"></i></a>
+          <a class="btn btn-info" data-wizard-parent="paso-3" data-wizard-go="paso-2"><i class="icon-chevron-left icon-white"></i>Anterior</a>
         </p>
         <p class="pull-right">
           <a class="btn btn-info" data-wizard-parent="paso-3" data-wizard-go="paso-4">Siguiente<i class="icon-chevron-right icon-white"></i></a>
@@ -81,7 +81,7 @@
         </label>
         <span class="help-block">Distintos cultivos tienen distintos tiempos de cosechas y se pueden adaptar los cultivos elegidos de acuerdo a las preferencias y a la posibilidad de esperar de cada persona, grupo o familia</span>
         <p class="pull-left">
-          <a class="btn btn-info" data-wizard-parent="paso-4" data-wizard-go="paso-3">Anterior<i class="icon-chevron-left icon-white"></i></a>
+          <a class="btn btn-info" data-wizard-parent="paso-4" data-wizard-go="paso-3"><i class="icon-chevron-left icon-white"></i>Anterior</a>
         </p>
         <p class="pull-right">
           <input type="submit" class="btn btn-info" value="Finalizar">
